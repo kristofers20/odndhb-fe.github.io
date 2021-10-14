@@ -1,0 +1,93 @@
+html{
+ background-color: RGB(38, 39, 40);
+ color: RGB(151, 150, 150);
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+h2{
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: RGB(151, 150, 150)
+}
+.projects_{
+  display: grid;
+  grid-template-rows: 33% 33%;
+}
+h2:hover {
+  color: RGB(248, 240, 227);
+  background-color: rgb(66, 67, 68);
+
+}
+h2:active{
+  color: black;
+}
+.top-click{
+	text-align: center;
+	margin: 0 0 0 0;
+  color: white;
+  text-decoration: none;
+}
+.top-part{
+	background-color: RGB(48, 49, 50);
+  margin-top: -20px;
+}
+.page-sections{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+#Lion{
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  padding: auto;
+  float: right
+
+}
+#p22{
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  padding: auto;
+  float: left;
+}
+#p44{
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  padding: auto;
+  float: right;
+}
+#first-proj{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+#second-proj{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+.righttext{
+  float: right;
+
+}
+.lefttext{
+  float: left;
+}
+.bottom_section{
+  background-color: RGB(48, 49, 50);
+}
