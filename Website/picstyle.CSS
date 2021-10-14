@@ -1,0 +1,80 @@
+html{
+ background-color: RGB(38, 39, 40);
+ color: RGB(151, 150, 150);
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+body{
+  height: 1000px;
+  width: 100%;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+h2{
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: RGB(151, 150, 150)
+}
+h2:hover {
+  color: RGB(248, 240, 227);
+  background-color: rgb(66, 67, 68);
+
+}
+h2:active{
+  color: black;
+}
+.top-click{
+	text-align: center;
+	margin: 0 0 0 0;
+  color: white;
+  text-decoration: none;
+}
+.top-part{
+	background-color: RGB(48, 49, 50);
+  margin-top: -20px;
+}
+.page-sections{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  row-gap: 10px;
+
+}
+.column{
+  flex: 33%;
+  max-width: 33%;
+  padding: 0;
+}
+
+@media screen and (max-width:600px) {
+  .column{
+    flex: 100%;
+    max-width: 100%
+  }
+}
+#lion{
+  width: 480px;
+  padding-bottom: 0;
+}
+.socialmedia {
+	text-align: right;
+}
+.bottom_section {
+  background-color: RGB(48, 49, 50);
+  float: bottom;
+}
